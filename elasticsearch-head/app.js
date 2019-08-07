@@ -1173,6 +1173,7 @@
 			this.refuid = 0;
 			this.refmap = {};
 			this.search = {
+				track_total_hits:true,
 				query: { bool: { must: [], must_not: [], should: [] } },
 				from: 0,
 				size: this.config.size,
